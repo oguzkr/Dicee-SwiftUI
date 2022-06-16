@@ -29,10 +29,7 @@ struct ContentView: View {
                 }) {
                     AppButton(title: "Roll")
                 }
-
             }
-
-            
         }
     }
 }
@@ -47,12 +44,6 @@ struct DiceeView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
-
 struct AppButton: View {
     var title: String
     var body: some View {
@@ -64,3 +55,11 @@ struct AppButton: View {
             .cornerRadius(10)
     }
 }
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+
+
